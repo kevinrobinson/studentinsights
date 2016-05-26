@@ -97,10 +97,13 @@
         a parent conversation, or some informal strategies that a teacher/team is using to help a student. \
         More formal strategies (e.g. the student meets with a tutor or counselor every week) should be recorded in Services.</p> \
         <br> \
-        <p><b>Who can enter a note?</b> Anyone who works with or involved with the student, \
+        <p><b>Who can enter a note?</b> \
+        Anyone who works with or involved with the student, \
         including classroom/ELL/SPED teachers, principals/assistant principals, counselors, and attendance officers.</p> \
         <br> \
-        <p><b>What can/should I put in a note?</b> The true test is to think about whether the information will help your \
+        <p><b>What can/should I put in a note?</b> \
+        <br> \
+        The true test is to think about whether the information will help your \
         team down the road in supporting this student, either in the coming weeks, or a few years from now. Examples include:</p> \
         <br> \
         <ul> \
@@ -110,7 +113,6 @@
           she is not showing many gains despite the volunteer tutor and the change in seating…."</li> \
           <li>"Alex just got an M on the latest F&P. Will try having him go next door to \
           join the other 4th grade group during guided reading."</li> \
-          <li>"Medicine change for Uri on 4/10. So far slight increase in focus."</li> \
           <li>"51a filed on 3/21. Waiting determination and follow-up from DCF."</li> \
           <li>"Just found that Cora really likes to go help out in grade 1. \
           Best incentive yet for when she stays on task and completes work."</li> \
@@ -119,7 +121,21 @@
           <li>"Mediation occurred between Oscar and Uri and went well. Both have agreed to keep distance for 2 weeks."</li> \
           <li>"Parent called to report that Jill won art award and will be going to nationals. \
           She suggested this might be an outlet if she shows frustration in schoolwork."</li> \
-        </ul>'
+        </ul> \
+        <br> \
+        <p><b>What is a Restricted Note?</b> \
+        <br> \
+        Restricted Notes are only visible to the Principal, AP, and guidance counselors. \
+        If a note contains sensitive information about healthcare, courts, or child abuse, think about using a Restricted Note.\
+        <br> \
+        This feature is currently in development. \
+        <br> \
+        <br> \
+        <ul> \
+          <li>"51a filed on 3/21. Waiting determination and follow-up from DCF."</li> \
+          <li>"Medicine change for Uri on 4/10. So far slight increase in focus."</li> \
+        </ul> \
+        '
     },
 
     getServicesHelpContent: function(){
