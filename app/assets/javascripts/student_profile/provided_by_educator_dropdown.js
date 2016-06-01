@@ -47,9 +47,12 @@
     toggleOpenMenu: function () {
       $('.ProvidedByEducatorDropdown').autocomplete("search", "");
     },
-
+    closeMenu: function () {
+      $('.ProvidedByEducatorDropdown').autocomplete('close');
+    },
     componentDidMount: function() {
       var self = this;
+
       $('.ProvidedByEducatorDropdown').autocomplete({
         source: '/educators/services_dropdown/' + this.props.studentId,
         delay: 0,
@@ -58,12 +61,13 @@
           self.props.onUserDropdownSelect(ui.item.value);
         }
       });
+
+      $('body').bind('click.closeMenu', this.closeMenu);
     },
 
     componentWillUnmount: function() {
       $('.ProvidedByEducatorDropdown').autocomplete('destroy');
+      $('body').unbind('click.closeMenu', this.closeMenu);
     }
-
   });
-
 })();
